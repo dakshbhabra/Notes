@@ -1,10 +1,14 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import LandingPage from './screens/LandingPage/LandingPage';
 
 function App() {
-  const count = 1;
   return (
     <div className="App">
-      Hello{count}
+      <Header />
+      <LandingPage />
+      <Footer />
     </div>
   );
 }
